@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  /* background-image: url(img/plumber.jpg);
+  background-size: cover;
+  background-position: bottom; */
+  width: 50%;
+  /* min-height: 200vh; */
+  border: 1px solid aquamarine;
+}
+
+h1 {
+  font-size: 4em;
+  color: rgba(49, 170, 49, 0.75);
+}
+
+h2 {
+  font-size: 1.5em;
+  /* font-style: italic; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: normal; */
+}
+
+strong {
+  font-size: 1.5rem;
+}

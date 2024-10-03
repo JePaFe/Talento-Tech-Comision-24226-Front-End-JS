@@ -1,0 +1,20 @@
+p {
+  color: red !important;
+  font-size: 2em;
+}
+
+.parrafo {
+  color: green;
+}
+
+#primero {
+  color: blue;
+}
+
+.fondo-aqua {
+  background-color: aqua;
+}
+
+.color-snow {
+  color: snow;
+}
