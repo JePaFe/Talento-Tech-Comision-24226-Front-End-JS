@@ -1,0 +1,56 @@
+* {
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+/* p {
+  color: red;
+}
+
+#parrafo-uno {
+  color: green;
+}
+
+.parrafos {
+  color: blue;
+} */
+
+h1,
+h2 {
+  border: 2px solid violet;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* section > p {
+  color: green;
+} */
+
+/* h2 ~ p {
+  color: red;
+} */
+
+h1 {
+  width: 300px;
+  height: 100px;
+  background-color: lightgreen;
+  padding: 1em;
+  border-bottom: 5px dotted cadetblue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h2 {
+  width: 30%;
+  background-color: red;
+  overflow: hidden;
+  border: solido;
+}
+
+h3 {
+  border-bottom: solid;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1em;
+}

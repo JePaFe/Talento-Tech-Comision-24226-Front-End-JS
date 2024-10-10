@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 90vw;
+  min-height: 70vh;
+  background-color: teal;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  align-content: space-evenly;
+}
+
+.item {
+  width: 100px;
+  /* height: 100px; */
+  background-color: bisque;
+  border: solid;
+}
+
+.item-3 {
+  align-self: center;
+}
