@@ -1,0 +1,20 @@
+.bxs-user {
+  color: red;
+  font-size: 2em;
+}
+
+.icono-user {
+  width: 200px;
+  color: blue;
+  background-color: red;
+  fill: green;
+}
+
+.plomero {
+  /* width: 300px; */
+  max-width: 100%;
+}
+
+.productos {
+  display: flex
+}
