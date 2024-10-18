@@ -1,0 +1,33 @@
+.container {
+  width: 700px;
+  height: 50vh;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 50px);
+  gap: 2em 1em;
+  justify-content: start;
+  align-content: end;
+}
+
+.item {
+  background-color: blue;
+}
+
+.item-1 {
+  background-color: red;
+
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+
+  /* grid-column: 2 / 4; */
+
+  /* grid-column: 2 / span 2; */
+
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+
+  /* grid-row: 2 / 3; */
+
+  /* grid-row: 2 / span 1; */
+}

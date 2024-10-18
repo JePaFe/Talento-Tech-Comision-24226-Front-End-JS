@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: green;
+    color: snow;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}
