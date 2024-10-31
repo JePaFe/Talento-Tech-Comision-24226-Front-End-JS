@@ -1,0 +1,15 @@
+:placeholder-shown {
+  border: 2px solid silver;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* #prueba:focus {
+    border: 2px solid red;
+} */
+
+#prueba {
+  outline: none;
+  font-size: 3em;
+  padding: 1em;
+  font-family: "Courier New", Courier, monospace;
+}
