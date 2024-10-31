@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+  margin: auto;
+  max-width: 80vw;
+}
+
+h1 {
+  transition: 2s;
+}
+
+h1:hover {
+  background-color: red;
+  font-size: 3em;
+  height: 80px;
+}
