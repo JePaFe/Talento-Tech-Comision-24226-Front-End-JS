@@ -1,0 +1,26 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "dni": 98765432
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "dni": 98765433
+    }
+  ],
+  "entradas": [
+    {
+      "id": 1,
+      "codigo": "A1",
+      "usuario_id": 1
+    },
+    {
+      "id": 2,
+      "codigo": "A2",
+      "usuario_id": 2
+    }
+  ]
+}
