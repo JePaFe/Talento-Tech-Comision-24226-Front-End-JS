@@ -1,0 +1,15 @@
+/* p {
+    color: red;
+} */
+
+/* .destacado {
+  color: green;
+} */
+
+p.destacado {
+  color: blue;
+}
+
+p.destacado#ultimo-elemento {
+  color: burlywood;
+}
