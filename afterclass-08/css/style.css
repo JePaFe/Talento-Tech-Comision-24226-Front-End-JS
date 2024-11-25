@@ -1,0 +1,62 @@
+/* Reset */
+
+:root {
+    --color-principal: red;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Estilos generales */
+
+body {
+  background-color: green;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* @media only screen and (min-width: 767px) and (max-width: 1023px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  body {
+    background-color: green;
+  }
+} */
