@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding-top: 1em;
+}
+
+.listado-productos {
+  display: grid;
+  gap: 0.5em;
+}
+
+.listado-productos article {
+  padding: 0.5em;
+  border: 1px solid gray;
+}
+
+@media screen and (min-width: 768px) {
+  .listado-productos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .listado-productos {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
